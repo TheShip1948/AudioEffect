@@ -1,1 +1,3 @@
-add_executable(audio_effect_test audio_effect_test.cpp ../third_party/catch2/catch_amalgamated.cpp)
+add_executable(audio_effect_test
+            audio_effect_test.cpp
+            ../third_party/catch2/catch_amalgamated.cpp)

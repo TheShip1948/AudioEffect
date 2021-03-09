@@ -4,7 +4,7 @@ The following are build steps on Linux, building on other platforms should be th
 * Move to AudioEffect directory, project code main directory (cd AudioEffect)
 * Create a new directory called build (mkdir build)
 * Move to build directory (cd build) 
-* Run cmake for both driver program and called main and unit tests (cmake .. -DUNIT_TESTS=True)
+* Run cmake for both driver program called main and unit tests (cmake .. -DUNIT_TESTS=True)
 * Build code (make)
 * Run driver program (./src/main)
 * Run unit test cases (./tests/audio_effect_test) 
@@ -23,4 +23,4 @@ Project consists of three directories
   * audio_effect.h: which contains the implementation of detect feedback 
   * main.cpp: the driver program  
 * tests: contains audio_effect_test.cpp which uses catch2 unit test library to test different scenarios of detect feedback.
-* third_party: contains code of catch2 library
+* third_party: contains code of catch2 library a unit test library 
